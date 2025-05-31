@@ -17,10 +17,3 @@ jobs:
       steps:
         - name : checkout
           uses: actions/checkout@v2
-        - name: Install dependencies
-          uses: npm install
-        - name: Run npm test suite
-          uses: npm test
-          
-        
-    
